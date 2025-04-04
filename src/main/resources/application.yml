@@ -1,0 +1,22 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+  devtools:
+    restart:
+      enabled: false
+    livereload:
+      enabled: false
+
+eureka:
+  instance:
+    prefer-ip-address: true
+
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+  server:
+    wait-time-in-ms-when-sync-empty: 0
