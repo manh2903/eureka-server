@@ -1,0 +1,14 @@
+.git
+.gitignore
+.gradle
+build
+!build/libs/*.jar
+*.md
+*.yml
+!application.yml
+*.properties
+!application.properties
+.idea
+*.iml
+.vscode
+*.log 
